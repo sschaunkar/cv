@@ -268,3 +268,47 @@ body {
   width: 80px;
   transition: 1s;
 }
+/* -------------------------------Projects-------------------------*/
+.project-box {
+  background: #c0b9b9;
+  padding: 20px;
+  margin-top: 20px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+.project-box .fa {
+  margin: 0 10px;
+  font-size: 20px;
+}
+.project-box span {
+  margin: 3px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.project-box p {
+  font-size: 15px;
+  margin-top: 20px;
+  color: #777;
+}
+.project-box:hover {
+  background: #000;
+  color: #fff;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  transition: 1s;
+}
+.project-box:hover p {
+  color: #fff;
+}
+.project-box img {
+  width: 400px;
+  height: 250px;
+}
+.logo {
+  margin-right: 10px;
+  margin-bottom: 5px;
+  width: 24px;
+  height: 24px;
+}
