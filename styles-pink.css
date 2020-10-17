@@ -191,6 +191,9 @@ i.fa.fa-bars::before {
   font-weight: bolder;
 }
 /* ----------------------Services---------------------------  */
+div#services {
+  padding-top: 40px;
+}
 .services h1 {
   color: #d85b5b;
   font-weight: bolder;
@@ -303,6 +306,9 @@ i.fa.fa-bars::before {
   transition: 1s;
 }
 /* -------------------------------Projects-------------------------*/
+div#projects {
+  padding-top: 10px;
+}
 .projects h1 {
   margin-top: 20px;
   color: #d85b5b;
@@ -364,7 +370,7 @@ i.fa.fa-bars::before {
   color: #aaa;
   font-weight: bold;
   text-transform: uppercase;
-  display: unset;
+  display: flex;
   align-items: center;
   justify-content: center;
 }

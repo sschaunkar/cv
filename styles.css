@@ -167,7 +167,10 @@ body {
   height: 20px;
   z-index: 1;
 }
-/* Services  */
+/* --------------------------------------Services ---------------------------------- */
+div#services {
+  padding-top: 40px;
+}
 .services-box {
   background: #c0b9b9;
   padding: 10px;
@@ -272,6 +275,9 @@ body {
   transition: 1s;
 }
 /* -------------------------------Projects-------------------------*/
+div#projects {
+  padding-top: 10px;
+}
 .project-box {
   background: #c0b9b9;
   padding: 20px;
@@ -317,14 +323,6 @@ body {
   height: 24px;
 }
 /* --------Text Slider---------- */
-.content {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: burlywood;
-}
 .slider-wrapper {
   font-size: 40px;
   color: #aaa;
