@@ -364,7 +364,7 @@ i.fa.fa-bars::before {
   color: #aaa;
   font-weight: bold;
   text-transform: uppercase;
-  display: flex;
+  display: unset;
   align-items: center;
   justify-content: center;
 }
