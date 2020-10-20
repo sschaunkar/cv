@@ -101,9 +101,6 @@ body {
 .intro {
   margin-left: 1rem;
 }
-.text-slider-items {
-  display: none;
-}
 .progress {
   border-radius: 16px !important;
   margin-bottom: 10px;
@@ -316,20 +313,20 @@ div#projects {
   width: 400px;
   height: 250px;
 }
-/* --------------Skill Logos */
+/* ------------------------------Skill Logos------------------------------------ */
 .logo {
   margin-right: 10px;
   margin-bottom: 5px;
   width: 24px;
   height: 24px;
 }
-/* --------Text Slider---------- */
+/* --------------------------------Text Slider-------------------------------- */
 .slider-wrapper {
   font-size: 40px;
   color: #aaa;
   font-weight: bold;
   text-transform: uppercase;
-  display: flex;
+  display: unset;
   align-items: center;
   justify-content: center;
 }
