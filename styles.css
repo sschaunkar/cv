@@ -101,6 +101,9 @@ body {
 .intro {
   margin-left: 1rem;
 }
+p.intro {
+text-align:justify;
+}
 .progress {
   border-radius: 16px !important;
   margin-bottom: 10px;
