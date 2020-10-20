@@ -6,8 +6,8 @@ body {
 /* Header CSS */
 #header {
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
-    url(./img/background.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)),
+    url(./img/office1.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -255,6 +255,7 @@ div#services {
   position: sticky;
   z-index: 1;
   width: 80px;
+  margin-top: 200px;
 }
 .social-icons ul {
   padding: initial;
@@ -328,7 +329,7 @@ div#projects {
   color: #aaa;
   font-weight: bold;
   text-transform: uppercase;
-  display: unset;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
