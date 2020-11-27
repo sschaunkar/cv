@@ -6,8 +6,8 @@ body {
 /* Header CSS */
 #header {
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
-    url(./img/background.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)),
+    url(./img/office1.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -101,6 +101,9 @@ body {
 .intro {
   margin-left: 1rem;
 }
+p.intro {
+  text-align: justify;
+}
 .progress {
   border-radius: 16px !important;
   margin-bottom: 10px;
@@ -164,7 +167,10 @@ body {
   height: 20px;
   z-index: 1;
 }
-/* Services  */
+/* --------------------------------------Services ---------------------------------- */
+div#services {
+  padding-top: 40px;
+}
 .services-box {
   background: #c0b9b9;
   padding: 10px;
@@ -249,6 +255,7 @@ body {
   position: sticky;
   z-index: 1;
   width: 80px;
+  margin-top: 200px;
 }
 .social-icons ul {
   padding: initial;
@@ -269,6 +276,9 @@ body {
   transition: 1s;
 }
 /* -------------------------------Projects-------------------------*/
+div#projects {
+  padding-top: 10px;
+}
 .project-box {
   background: #c0b9b9;
   padding: 20px;
@@ -306,9 +316,83 @@ body {
   width: 400px;
   height: 250px;
 }
+/* ------------------------------Skill Logos------------------------------------ */
 .logo {
   margin-right: 10px;
   margin-bottom: 5px;
   width: 24px;
   height: 24px;
+}
+/* --------------------------------Text Slider-------------------------------- */
+.slider-wrapper {
+  font-size: 40px;
+  color: #aaa;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: unset;
+  align-items: center;
+  justify-content: center;
+}
+.slider {
+  height: 50px;
+  padding-left: 15px;
+  overflow: hidden;
+}
+.slider div {
+  color: #fff;
+  height: 50px;
+  margin-bottom: 50px;
+  padding: 2px 15px;
+  box-sizing: border-box;
+}
+.slider-text-1 {
+  background: skyblue;
+  animation: slide 5s linear infinite;
+}
+.slider-text-2 {
+  background: lightgreen;
+}
+.slider-text-3 {
+  background: red;
+}
+.slider-text-4 {
+  background: chartreuse;
+}
+.slider-text-5 {
+  background: blueviolet;
+}
+@keyframes slide {
+  0% {
+    margin-top: -500px;
+  }
+  5% {
+    margin-top: -400px;
+  }
+  20% {
+    margin-top: -400px;
+  }
+  25% {
+    margin-top: -300px;
+  }
+  40% {
+    margin-top: -300px;
+  }
+  45% {
+    margin-top: -200px;
+  }
+  50% {
+    margin-top: -200px;
+  }
+  55% {
+    margin-top: -100px;
+  }
+  80% {
+    margin-top: -100px;
+  }
+  85% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: 0px;
+  }
 }
