@@ -100,9 +100,13 @@ body {
 }
 .intro {
   margin-left: 1rem;
+  font-weight: bolder;
 }
 p.intro {
-  text-align:justify;
+  text-align: justify;
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-radius: 3rem;
 }
 .progress {
   border-radius: 16px !important;
